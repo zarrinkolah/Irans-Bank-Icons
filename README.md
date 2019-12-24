@@ -12,7 +12,7 @@
 
 ---
 
-## Example[1]
+## Example
 
 ```html
  <i class="bank300 bsi" />
