@@ -1,0 +1,770 @@
+/*
+ * Version: 1.0
+ * Author: Mahdi Zarrinkolah
+ * Author Email: mz.goldenhat@gmail.com 
+ */
+.bank32 {
+  background-image: url("../image//banks32.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bank32.gray {
+  filter: grayscale(100%);
+}
+.bank32.bsi {
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.mellat {
+  background-position: 32px 0px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.tejarat {
+  background-position: 64px 0px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.bmi {
+  background-position: 96px 0px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.sepah {
+  background-position: 128px 0px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.bki {
+  background-position: 0px 32px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.parsian {
+  background-position: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.maskan {
+  background-position: 64px 32px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.rb {
+  background-position: 96px 32px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.en {
+  background-position: 128px 32px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.ansar {
+  background-position: 0px 64px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.bpi {
+  background-position: 32px 64px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.sb {
+  background-position: 64px 64px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.sina {
+  background-position: 96px 64px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.post {
+  background-position: 128px 64px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.ghbi {
+  background-position: 0px 96px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.tt {
+  background-position: 32px 96px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.shahr {
+  background-position: 64px 96px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.ba {
+  background-position: 96px 96px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.sarmayeh {
+  background-position: 128px 96px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.day {
+  background-position: 0px 128px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.hi {
+  background-position: 32px 128px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.iz {
+  background-position: 64px 128px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.kar {
+  background-position: 96px 128px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.tourism {
+  background-position: 128px 128px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.bim {
+  background-position: 0px 160px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.edbi {
+  background-position: 32px 160px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.me {
+  background-position: 64px 160px;
+  width: 32px;
+  height: 32px;
+}
+.bank32.ivbb {
+  background-position: 96px 160px;
+  width: 32px;
+  height: 32px;
+}
+.bank64 {
+  background-image: url("../image//banks64.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bank64.gray {
+  filter: grayscale(100%);
+}
+.bank64.bsi {
+  background-position: 0px 0px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.mellat {
+  background-position: 64px 0px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.tejarat {
+  background-position: 128px 0px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.bmi {
+  background-position: 192px 0px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.sepah {
+  background-position: 256px 0px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.bki {
+  background-position: 0px 64px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.parsian {
+  background-position: 64px 64px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.maskan {
+  background-position: 128px 64px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.rb {
+  background-position: 192px 64px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.en {
+  background-position: 256px 64px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.ansar {
+  background-position: 0px 128px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.bpi {
+  background-position: 64px 128px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.sb {
+  background-position: 128px 128px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.sina {
+  background-position: 192px 128px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.post {
+  background-position: 256px 128px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.ghbi {
+  background-position: 0px 192px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.tt {
+  background-position: 64px 192px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.shahr {
+  background-position: 128px 192px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.ba {
+  background-position: 192px 192px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.sarmayeh {
+  background-position: 256px 192px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.day {
+  background-position: 0px 256px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.hi {
+  background-position: 64px 256px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.iz {
+  background-position: 128px 256px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.kar {
+  background-position: 192px 256px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.tourism {
+  background-position: 256px 256px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.bim {
+  background-position: 0px 320px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.edbi {
+  background-position: 64px 320px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.me {
+  background-position: 128px 320px;
+  width: 64px;
+  height: 64px;
+}
+.bank64.ivbb {
+  background-position: 192px 320px;
+  width: 64px;
+  height: 64px;
+}
+.bank128 {
+  background-image: url("../image//banks128.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bank128.gray {
+  filter: grayscale(100%);
+}
+.bank128.bsi {
+  background-position: 0px 0px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.mellat {
+  background-position: 128px 0px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.tejarat {
+  background-position: 256px 0px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.bmi {
+  background-position: 384px 0px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.sepah {
+  background-position: 512px 0px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.bki {
+  background-position: 0px 128px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.parsian {
+  background-position: 128px 128px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.maskan {
+  background-position: 256px 128px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.rb {
+  background-position: 384px 128px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.en {
+  background-position: 512px 128px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.ansar {
+  background-position: 0px 256px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.bpi {
+  background-position: 128px 256px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.sb {
+  background-position: 256px 256px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.sina {
+  background-position: 384px 256px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.post {
+  background-position: 512px 256px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.ghbi {
+  background-position: 0px 384px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.tt {
+  background-position: 128px 384px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.shahr {
+  background-position: 256px 384px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.ba {
+  background-position: 384px 384px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.sarmayeh {
+  background-position: 512px 384px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.day {
+  background-position: 0px 512px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.hi {
+  background-position: 128px 512px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.iz {
+  background-position: 256px 512px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.kar {
+  background-position: 384px 512px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.tourism {
+  background-position: 512px 512px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.bim {
+  background-position: 0px 640px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.edbi {
+  background-position: 128px 640px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.me {
+  background-position: 256px 640px;
+  width: 128px;
+  height: 128px;
+}
+.bank128.ivbb {
+  background-position: 384px 640px;
+  width: 128px;
+  height: 128px;
+}
+.bank256 {
+  background-image: url("../image//banks256.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bank256.gray {
+  filter: grayscale(100%);
+}
+.bank256.bsi {
+  background-position: 0px 0px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.mellat {
+  background-position: 256px 0px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.tejarat {
+  background-position: 512px 0px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.bmi {
+  background-position: 768px 0px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.sepah {
+  background-position: 1024px 0px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.bki {
+  background-position: 0px 256px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.parsian {
+  background-position: 256px 256px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.maskan {
+  background-position: 512px 256px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.rb {
+  background-position: 768px 256px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.en {
+  background-position: 1024px 256px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.ansar {
+  background-position: 0px 512px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.bpi {
+  background-position: 256px 512px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.sb {
+  background-position: 512px 512px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.sina {
+  background-position: 768px 512px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.post {
+  background-position: 1024px 512px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.ghbi {
+  background-position: 0px 768px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.tt {
+  background-position: 256px 768px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.shahr {
+  background-position: 512px 768px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.ba {
+  background-position: 768px 768px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.sarmayeh {
+  background-position: 1024px 768px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.day {
+  background-position: 0px 1024px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.hi {
+  background-position: 256px 1024px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.iz {
+  background-position: 512px 1024px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.kar {
+  background-position: 768px 1024px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.tourism {
+  background-position: 1024px 1024px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.bim {
+  background-position: 0px 1280px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.edbi {
+  background-position: 256px 1280px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.me {
+  background-position: 512px 1280px;
+  width: 256px;
+  height: 256px;
+}
+.bank256.ivbb {
+  background-position: 768px 1280px;
+  width: 256px;
+  height: 256px;
+}
+.bank300 {
+  background-image: url("../image//banks300.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.bank300.gray {
+  filter: grayscale(100%);
+}
+.bank300.bsi {
+  background-position: 0px 0px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.mellat {
+  background-position: 300px 0px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.tejarat {
+  background-position: 600px 0px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.bmi {
+  background-position: 900px 0px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.sepah {
+  background-position: 1200px 0px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.bki {
+  background-position: 0px 300px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.parsian {
+  background-position: 300px 300px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.maskan {
+  background-position: 600px 300px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.rb {
+  background-position: 900px 300px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.en {
+  background-position: 1200px 300px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.ansar {
+  background-position: 0px 600px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.bpi {
+  background-position: 300px 600px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.sb {
+  background-position: 600px 600px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.sina {
+  background-position: 900px 600px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.post {
+  background-position: 1200px 600px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.ghbi {
+  background-position: 0px 900px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.tt {
+  background-position: 300px 900px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.shahr {
+  background-position: 600px 900px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.ba {
+  background-position: 900px 900px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.sarmayeh {
+  background-position: 1200px 900px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.day {
+  background-position: 0px 1200px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.hi {
+  background-position: 300px 1200px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.iz {
+  background-position: 600px 1200px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.kar {
+  background-position: 900px 1200px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.tourism {
+  background-position: 1200px 1200px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.bim {
+  background-position: 0px 1500px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.edbi {
+  background-position: 300px 1500px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.me {
+  background-position: 600px 1500px;
+  width: 300px;
+  height: 300px;
+}
+.bank300.ivbb {
+  background-position: 900px 1500px;
+  width: 300px;
+  height: 300px;
+}

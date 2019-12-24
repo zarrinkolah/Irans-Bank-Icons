@@ -1,0 +1,147 @@
+/*
+ * Version: 1.0
+ * Author: Mahdi Zarrinkolah
+ * Author Email: mz.goldenhat@gmail.com 
+ */
+
+.bank-part(@row, @col, @width) {
+    @x: @width*@col*1px;
+    @y: @width*@row*1px;
+    background-position: @x @y;
+    width: @width*1px;
+    height: @width*1px;
+
+}
+
+.bank-width(@width) {
+    .bank@{width} {
+        background-image: url("../image//banks@{width}.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        &.gray{
+             filter: grayscale(100%)   
+        }
+        &.bsi {
+            .bank-part(0, 0, @width);
+        }
+
+        &.mellat {
+            .bank-part(0, 1, @width);
+        }
+
+        &.tejarat {
+            .bank-part(0, 2, @width);
+        }
+
+        &.bmi {
+            .bank-part(0, 3, @width);
+        }
+
+        &.sepah {
+            .bank-part(0, 4, @width);
+        }
+
+        &.bki {
+            .bank-part(1, 0, @width);
+        }
+
+        &.parsian {
+            .bank-part(1, 1, @width);
+        }
+
+        &.maskan {
+            .bank-part(1, 2, @width);
+        }
+
+        &.rb {
+            .bank-part(1, 3, @width);
+        }
+
+        &.en {
+            .bank-part(1, 4, @width);
+        }
+
+        &.ansar {
+            .bank-part(2, 0, @width);
+        }
+
+        &.bpi {
+            .bank-part(2, 1, @width);
+        }
+
+        &.sb {
+            .bank-part(2, 2, @width);
+        }
+
+        &.sina {
+            .bank-part(2, 3, @width);
+        }
+
+        &.post {
+            .bank-part(2, 4, @width);
+        }
+
+        &.ghbi {
+            .bank-part(3, 0, @width);
+        }
+
+        &.tt {
+            .bank-part(3, 1, @width);
+        }
+
+        &.shahr {
+            .bank-part(3, 2, @width);
+        }
+
+        &.ba {
+            .bank-part(3, 3, @width);
+        }
+
+        &.sarmayeh {
+            .bank-part(3, 4, @width);
+        }
+
+        &.day {
+            .bank-part(4, 0, @width);
+        }
+
+        &.hi {
+            .bank-part(4, 1, @width);
+        }
+
+        &.iz {
+            .bank-part(4, 2, @width);
+        }
+
+        &.kar {
+            .bank-part(4, 3, @width);
+        }
+
+        &.tourism {
+            .bank-part(4, 4, @width);
+        }
+
+        &.bim {
+            .bank-part(5, 0, @width);
+        }
+
+        &.edbi {
+            .bank-part(5, 1, @width);
+        }
+
+        &.me {
+            .bank-part(5, 2, @width);
+        }
+
+        &.ivbb {
+            .bank-part(5, 3, @width);
+        }
+    }
+}
+
+.bank-width(32);
+.bank-width(64);
+.bank-width(128);
+.bank-width(256);
+.bank-width(300);
+
