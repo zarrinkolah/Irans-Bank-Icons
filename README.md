@@ -46,6 +46,7 @@ It's better to import **iransbankicon** in your exact usage folder
 ```html
  <i class="bank300 bsi gray" />
 ```
+it can have grayscale filter with 100% 
 
 <img src="https://i.ibb.co/C7NmMmt/Screen-Shot-1398-10-04-at-01-16-16.png"  width='100'/>
 
